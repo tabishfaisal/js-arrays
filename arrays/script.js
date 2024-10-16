@@ -35,10 +35,13 @@ teachers.push("Vanessa"); // usiamo il metodo .push con dentro () il elemto ad a
 console. log(teachers); // stampo e controlo se funziona
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+teachers.unshift("Sarah"); // al opposito di metodo Shift() che si usa per rimuovere usiamo unshift() per aggiungere elemento al inizi di un Array
+console. log(teachers); // stampo e controllo se funziona
 
 // 7. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-const isFabioPresent = null;
+const isFabioPresent = teachers.includes("Fabio"); // per verificare se elemento esiste nel array usiamo metodo .include() con dentro elemnto 
+console. log(isFabioPresent); // stampo per verificare se funziona
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
