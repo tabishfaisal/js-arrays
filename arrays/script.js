@@ -20,9 +20,10 @@ teachers[4]="Patrick"; // assegno valore Patrick a indice 4 di variable teacher 
 console. log(teachers); // stampo per verificare se funzoine
 
 
-
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+const lastTeacher = teachers.pop(6); // uso il metodo Pop
+console. log(lastTeacher); // stampo LastTeacher e teachers per vedere se funzionanno
+console. log(teachers);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
