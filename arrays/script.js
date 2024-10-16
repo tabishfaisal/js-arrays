@@ -21,14 +21,18 @@ console. log(teachers); // stampo per verificare se funzoine
 
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = teachers.pop(6); // uso il metodo Pop
+const lastTeacher = teachers.pop(6); // uso il metodo .Pop() per rimouvere l'ultimi elemento di un array
 console. log(lastTeacher); // stampo LastTeacher e teachers per vedere se funzionanno
 console. log(teachers);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = null;
+const firstTeacher = teachers.shift(0); // uso il metodo .Shift() per rimuovere il primo elemento di un Array
+console. log(firstTeacher); // stampo firstTeacher e teachers per vedere se funzionanno
+console. log(teachers)
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push("Vanessa"); // usiamo il metodo .push con dentro () il elemto ad aggiungere alla fine di un array
+console. log(teachers); // stampo e controlo se funziona
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
