@@ -21,12 +21,12 @@ console. log(teachers); // stampo per verificare se funzoine
 
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = teachers.pop(6); // uso il metodo .Pop() per rimouvere l'ultimi elemento di un array
+const lastTeacher = teachers.pop(); // uso il metodo .Pop() per rimouvere l'ultimi elemento di un array
 console. log(lastTeacher); // stampo LastTeacher e teachers per vedere se funzionanno
 console. log(teachers);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = teachers.shift(0); // uso il metodo .Shift() per rimuovere il primo elemento di un Array
+const firstTeacher = teachers.shift(); // uso il metodo .Shift() per rimuovere il primo elemento di un Array
 console. log(firstTeacher); // stampo firstTeacher e teachers per vedere se funzionanno
 console. log(teachers)
 
@@ -55,4 +55,5 @@ console. log(teachersString); // controlo con console fatto
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+const isTeachersEmpty = teachers.length; // Se il risultato era 0 in quel caso array teacher era vuoto
+console. log(isTeachersEmpty);
